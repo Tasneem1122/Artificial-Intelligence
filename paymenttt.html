@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body bgcolor="orange">
+<div class="w3-container">
+ 
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-red">Payment</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="payyyyy.html" class="w3-bar-item w3-button">Pay</a>
+      <a href="MainMenu.html" class="w3-bar-item w3-button">Main Menu</a>
+      <a href="Report.html" class="w3-bar-item w3-button">Report</a>
+ <a href="other services.html" class="w3-bar-item w3-button">Other Services</a>
+      <a href="Exit.html" class="w3-bar-item w3-button">Exit</a>
+    </div>
+  </div>
+</div>
+<center>
+<h1>Payment</h1>
+
+<form action="/action_page.php">
+
+  <label for="card holder name">Card Holder Name:</label><br>
+  <input type="text" id="card holder name" name="card holder name" value="Enter Card Holder Name"><br><br>
+
+  <label for="Card Number">Card Number:</label><br>
+  <input type="text" id="Card Number" name="Card Number" value="Enter Card Number"><br><br>
+
+<label for="Expiration Date">Expiration Date:</label><br>
+  <input type="text" id="Expiration Date" name="Expiration Date" value="----------"><br><br>
+
+<label for="Security code">Security code:</label><br>
+  <input type="text" id="Security code" name="Security code" value="Enter Security code"><br><br>
+
+
+<label for="cars">Payment Type:</label><br>
+  <select name="payment types" id="payment types">
+    <option value="credit card">Credit Card</option>
+  <option value="debit card">Debit Card</option>
+
+
+  </select>
+  <br><br>
+  <a href="payyyyy.html" class="w3-bar-item w3-button">Submit</a>
+</form>
+
+
+
+</body>
+</html>
